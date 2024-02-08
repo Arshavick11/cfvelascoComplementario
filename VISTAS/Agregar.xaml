@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="cfvelascoComplementario.VISTAS.Agregar"
+             Title="Agregar">
+    <VerticalStackLayout>
+        <Label 
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Entry x:Name="txtNombre" Placeholder="Ingrese el nombre:"/>
+        <Entry x:Name="txtApellido" Placeholder="Ingrese el Apellido:"/>
+        <Entry x:Name="txtCurso" Placeholder="Ingrese El curso"/>
+        <Entry x:Name="txtParalelo" Placeholder="Ingrese el paralelo"/>
+        <Entry x:Name="txtNotaFinal" Placeholder="Ingrese la notaFinal"/>
+       
+        <Button x:Name="btnAgregar"
+   Text="Agregar"
+   Clicked="btnAgregar_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>
